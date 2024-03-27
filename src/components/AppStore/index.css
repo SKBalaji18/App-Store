@@ -1,0 +1,66 @@
+.bg-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inside-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.search-container {
+  border-radius: 7px;
+  border: 1px solid #7b8794;
+  display: flex;
+  align-items: center;
+  width: 60%;
+}
+h1 {
+  font-family: 'Bree Serif';
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: center;
+}
+input {
+  background-color: transparent;
+  border: 0px;
+  width: 100%;
+  outline: 0px;
+  font-size: 16px;
+  padding: 10px;
+  font-family: 'Roboto';
+  color: #7b8794;
+}
+
+.search-icon {
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+}
+
+ul {
+  margin-top: 20px;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.apps-detais-container {
+  width: 90%;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 575px) {
+  ul {
+    width: 80%;
+    align-self: center;
+  }
+}

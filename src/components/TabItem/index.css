@@ -1,0 +1,33 @@
+.tab-container {
+  background-color: transparent;
+  border: 0px;
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #7b8794;
+  list-style-type: none;
+  padding: 10px 20px;
+}
+
+.tab-list {
+  list-style-type: none;
+  border-bottom: 2px solid #7b8794;
+}
+.active-tab {
+  color: #2563eb;
+  padding-top: 7px;
+}
+.active-tab-el {
+  border-bottom: 2.5px solid #2563eb;
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .tab-container {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .tab-container {
+    font-size: 12px;
+  }
+}
